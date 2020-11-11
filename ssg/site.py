@@ -1,5 +1,5 @@
 from os import mkdir
-from pathlib import *
+from pathlib import Path
 
 class Site:
     def __init__(self, source, dest):
