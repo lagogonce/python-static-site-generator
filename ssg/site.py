@@ -2,8 +2,6 @@ from os import mkdir
 from pathlib import *
 
 class Site:
-    """Site class"""
-
     def __init__(self, source, dest):
         self.source = Path(source)
         self.dest = Path(dest)
